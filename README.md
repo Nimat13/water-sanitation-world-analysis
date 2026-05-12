@@ -316,6 +316,8 @@ Created a star-schema-inspired model in Power BI using:
 
 * `YEAR`
 * `COUNTRY`
+* `WHO_Regions`
+* `Incom_groups`
 
 ##### Fact Tables
 
@@ -324,10 +326,8 @@ Created a star-schema-inspired model in Power BI using:
 * Hygiene dataset
 * Menstrual health dataset
 
-Relationships were created using:
-
-* `country`
-* `year`
+Relationships were created using the dimension tables :
+![Global Water Analysis Dashboard](images/global_water_analysis_dashboard.png)
 
 The Power BI dashboard was designed to provide an interactive and comparative analysis of global WASH (Water, Sanitation, and Hygiene) indicators.
 
